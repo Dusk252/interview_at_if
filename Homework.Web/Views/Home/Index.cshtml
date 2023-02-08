@@ -1,0 +1,38 @@
+﻿@model HomeViewModel
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="text-left">
+    <h1 class="mb-4">Products</h1>
+    
+    <!--desktop only header-->
+    <div class="row d-none d-lg-flex fw-bold">
+        <div class="col col-lg-4">Title</div>
+        <div class="col col-lg-4">Brand</div>
+        <div class="col col-lg-4">Price</div>
+    </div>
+
+    <!--iterate products-->
+    @{
+        @foreach (var product in Model.productList) 
+        {
+            <div class="row mt-4 mt-lg-0">
+                <div class="col-12 d-flex d-lg-none fw-bold">Title</div>
+                <div class="col-12 col-lg-4 d-flex">@product.title</div>
+                <div class="col-12 d-flex d-lg-none fw-bold">Brand</div>
+                <div class="col-12 col-lg-4 d-flex">@product.brand</div>
+                <div class="col-12 d-flex d-lg-none fw-bold">Price</div>
+                <div class="col-12 col-lg-4 d-flex">@product.price</div>
+            </div>
+        }
+    }
+
+    <!--brand display--->
+    <div class="row mt-4">
+        <div class="col-12">
+            <span class="fw-bold">Trending brand: </span><span>@Model.trendingBrand</span>
+        </div>
+    </div>
+</div>

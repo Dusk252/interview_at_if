@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework.Web", "Homework.Web\Homework.Web.csproj", "{B164832B-68F5-4B02-9775-F80E60E74C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework.Web.Tests", "Homework.Web.Tests\Homework.Web.Tests.csproj", "{BDF48D73-5E16-4C74-AC21-8977F5D52AF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B164832B-68F5-4B02-9775-F80E60E74C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B164832B-68F5-4B02-9775-F80E60E74C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B164832B-68F5-4B02-9775-F80E60E74C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B164832B-68F5-4B02-9775-F80E60E74C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF48D73-5E16-4C74-AC21-8977F5D52AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF48D73-5E16-4C74-AC21-8977F5D52AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF48D73-5E16-4C74-AC21-8977F5D52AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF48D73-5E16-4C74-AC21-8977F5D52AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
